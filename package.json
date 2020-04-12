@@ -10,9 +10,12 @@
     "express": "^4.17.1",
     "mongoose": "^5.4.20"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "backend": "nodemon index.js"
   },
   "repository": {
     "type": "git",
